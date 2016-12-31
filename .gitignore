@@ -1,5 +1,6 @@
 .ipynb_checkpoints
 __pycache__
-bvlc-alexnet.npy
+bvlc_alexnet.npy
 train.p
+test.p
 .vscode
