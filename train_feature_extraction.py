@@ -47,7 +47,7 @@ fc8 = tf.matmul(fc7, fc8w) + fc8b
 
 # TODO: Define loss, training, accuracy operations.
 
-epochs = 30
+epochs = 10
 rate = .001
 #loss is stochastic gradient descent-- or is it atomizer? 
 #takes predictions, actual values, and calculates cross_entropy (distance)

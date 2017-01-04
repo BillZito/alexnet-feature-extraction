@@ -14,6 +14,8 @@ with open('./train.p', 'rb') as f:
     data = pickle.load(f)
 
 X_train, X_val, y_train, y_val = train_test_split(data['features'], data['labels'], test_size=0.33, random_state=0)
+print('xtrain is', X_train[0], X_train[1])
+print('ytrain is', y_train.shape)
 
 features = tf.placeholder(tf.float32, (None, 32, 32, 3))
 labels = tf.placeholder(tf.int64, None)
